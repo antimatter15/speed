@@ -1,0 +1,20 @@
+This is a sort of interesting name because
+I thought of making this while catching a 
+season of Breaking Bad, which is about a 
+meth manufacturer, and another name of the
+drug is speed. So ha. Also it adjusts vlc's
+playback speed so I can more efficiently 
+waste my time.
+
+It's not very hard to use.
+
+python speed.py < path_to_srt
+
+Stealing from the videolan wiki:
+
+#to set up vlc to use this script, go to tools->preferences and 
+#click on "show settings->all" at the bottom. from that menu, 
+#select "Interface->Main Interfaces", and check the "Remote Control 
+#Interface" box. Next, select "Interface->Main Interfaces->RC",
+#check the "Fake TTY' box, and enter 'home/YOURNAME/vlc.sock'in
+#the "UNIX socket command input" field.  
